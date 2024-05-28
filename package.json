@@ -7,11 +7,22 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "db:generate": "drizzle-kit generate"
   },
   "dependencies": {
+    "@nuxt/ui": "^2.16.0",
+    "@nuxthub/core": "npm:@nuxthub/core@nightly",
+    "drizzle-orm": "^0.29.5",
     "nuxt": "^3.11.2",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "drizzle-kit": "^0.21.4",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "wrangler": "^3.57.2"
   }
 }
